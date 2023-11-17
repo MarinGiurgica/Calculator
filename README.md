@@ -15,7 +15,7 @@ pip install pyinstaller
 
 cd Desktop
 
-pyinstaller --onefile --windowed --icon=icon_calc.ico calc_to_exec.py
+pyinstaller --onefile --windowed --icon=icon.ico calc_to_exec.py
 
 """
 !!using command prompt!!
@@ -24,6 +24,6 @@ pyinstaller --onefile --windowed --icon=icon_calc.ico calc_to_exec.py
 
 => --windowed because we don`t want a console to be opened
 
-=> icon_calc.ico is our desired icon for the final executable, which must be in the same location as the calc_to_exec.py is, and it must be in an ico/exe format
+=> icon.ico is our desired icon for the final executable, which must be in the same location as the calc_to_exec.py is, and it must be in an ico/exe format
 
 """
